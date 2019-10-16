@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "576488020830",
+    "firebase_url": "https://aulaandroid-fd0ca.firebaseio.com",
+    "project_id": "aulaandroid-fd0ca",
+    "storage_bucket": "aulaandroid-fd0ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576488020830:android:d62befd8900a455c178dcf",
+        "android_client_info": {
+          "package_name": "com.br.firebaseandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576488020830-sr5lejc3u8elvrqesjqgtfidb4jmq15c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJy7UVT4bn6FNs_k3XoETXbB5jszQcQVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576488020830-sr5lejc3u8elvrqesjqgtfidb4jmq15c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576488020830:android:b730c53ef321eb78178dcf",
+        "android_client_info": {
+          "package_name": "up.edu.br.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576488020830-psus72n4hrdp6nlmtokhq5q76cnu77gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "up.edu.br.firebase",
+            "certificate_hash": "3d518f3bd6a430f8505776427b631a2fd69080d4"
+          }
+        },
+        {
+          "client_id": "576488020830-sr5lejc3u8elvrqesjqgtfidb4jmq15c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJy7UVT4bn6FNs_k3XoETXbB5jszQcQVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576488020830-sr5lejc3u8elvrqesjqgtfidb4jmq15c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
