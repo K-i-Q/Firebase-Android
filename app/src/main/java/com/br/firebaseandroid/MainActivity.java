@@ -11,6 +11,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -26,6 +29,29 @@ public class MainActivity extends AppCompatActivity {
 
         myRef.child("contatos").push().setValue(contato);
 
+        myRef.addValueEventListener(new ValueEventListener() {
 
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+
+                List<Contato> listaContatos = new ArrayList<>();
+                String _nome;
+                String _email;
+                Contato _contato;
+
+                for(DataSnapshot dtsn :dataSnapshot.getChildren()){
+                    _nome = dtsn.child("name").getValue(String.class);
+                    _email = dtsn.child("email").getValue(String.class);
+                    _contato = new Contato(_nome,_email);
+                    listaContatos.add(_contato);
+                };
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                // Failed to read value
+            }
+        });
     }
 }
